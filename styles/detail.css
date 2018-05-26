@@ -1,0 +1,330 @@
+/*主题样式,分块设置*/
+#content{
+	clear: left;
+	margin: 0 auto;
+	position: relative;
+	width: 990px;
+}
+.janeshop{
+	height: 560px;
+	overflow: hidden;
+	padding: 0 0 10px;
+}
+#jnCatalog{
+	float: left;
+	height: 560px;
+	margin: 0 11px 0 0;
+	overflow: hidden;
+	width: 187px;
+}
+#jnProitem{
+	float: left;
+	width: 312px;
+	height: 560px;
+	display: inline;
+	margin-right: 10px;
+}
+#jnDetails{
+	float: left;
+	display: inline;
+	overflow: hidden;
+	width: 468px;
+	margin
+}
+/*主体下左栏商品分类样式*/
+#jnCatalog h2{
+	height: 30px;
+	line-height: 30px;
+	color: #fff;
+	font-size: 12px;
+	text-indent: 13px;
+	background-color: #6E6E6E;
+}
+.jnCatainfo{
+	border: 1px solid #6E6E6E;
+	border-style: none solid solid;
+	border-width: 0 1px 1px;
+	height: 524px;
+	overflow: hidden;
+	padding: 5px 10px 0;
+	width: 165px;
+}
+.jnCatainfo h3{
+	border-bottom: 1px solid #EEEEEE;
+	height: 24px;
+	line-height: 24px;
+	width: 164px;
+}
+.jnCatainfo ul{
+	float: left;
+	padding: 0 2px 8px;
+}
+.jnCatainfo li{
+	color: #AEADAE;
+	float: left;
+	height: 24px;
+	line-height: 24px;
+	width: 79px;
+	overflow: hidden;
+	position: relative;
+}
+.jnCatainfo li a{
+	color: #444444;
+}
+.jnCatainfo li a.promoted{
+	color:#F9044E;
+}
+.jnCatainfo li a:hover{
+	color:#008CD7;
+	text-decoration: none;
+}
+.jnCatainfo li sub.hot{
+	height: 16px;
+	position: absolute;
+	top: -4px;
+	width: 21px;
+}
+/*产品详情样式*/
+#jnProitem .jqzoomWrap{
+	border: 1px solid #BBBBBB;
+	cursor: pointer;
+	float: left;
+	padding: 0;
+	position: relative;
+}
+.jqzoomWrap .jqzoom{
+	border:1px solid #BBB;
+	float:left;
+	position:relative;
+	padding:0px;
+	cursor:pointer;
+}
+
+.jqzoomWrap .fs {
+	width:300px;
+	height:300px; 
+}
+#jnProitem span{
+	clear: both;
+	display: block;
+	padding-bottom: 10px;
+	padding-top: 10px;
+	text-align: center;
+	width: 320px;
+}
+#jnProitem ul.imgList{
+	height: 80px;
+}
+#jnProitem ul.imgList li{
+	float: left;
+	margin-right: 10px; 
+}
+#jnProitem ul.imgList li img{
+	width: 60px;
+	height: 60px;
+	padding: 1px;
+	background: #EEE;
+	cursor: pointer;
+}
+#jnProitem ul.imgList li img:hover{
+	padding: 1px;
+	background: #999;
+}
+.tab{
+	clear: both;
+	float: left;
+	height: 230px;
+	overflow: hidden;
+	width: 310px;
+}
+.tab .tab_menu{
+	clear: both;
+}
+.tab .tab_menu li{
+	float: left;
+	text-align: center;
+	cursor: pointer;
+	list-style: none;
+	padding: 1px 6px;
+	margin-right: 4px;
+	background: #F1F1F1;
+	border:1px solid #898989;
+	border-bottom: none; 
+}
+.tab .tab_menu li:hover{
+	background: #DFDFDF;
+}
+.tab .tab_menu li.selected{
+	color: #FFF;
+	background: #6D8484;
+}
+.tab .tab_box{
+	clear: both;
+	border: 1px solid #898989;
+}
+.tab .hide{
+	display: none;
+}
+/*购买详情样式*/
+#jnDetails h4{
+	height: 20px;
+	line-height: 20px;
+	text-indent: 12px;
+}
+#jnDetails p{
+	margin: 0 0 4px;
+	line-height: 20px;
+}
+#jnDetails .color_change{
+	width: 380px;
+	font-weight:bold;
+	float:left; 
+	display:inline;
+	margin-bottom:10px;
+}
+#jnDetails .color_change ul li{
+	float: left;
+	margin-right: 10px;
+}
+#jnDetails .color_change img{
+	width: 30px;
+	height: 30px;
+	padding: 1px;
+	background: #EEE;
+	border:1px solid #BBB;
+	cursor:pointer;
+}
+#jnDetails .color_change img:hover{
+	padding: 1px;
+	background: #999;
+}
+#jnDetails .color_change .hover{
+	padding: 1px;
+	background: #999;
+}
+#jnDetails .pro_size{
+	width:380px;
+	font-weight:bold;
+	float:left; 
+	display:inline;
+	margin-bottom:10px; 
+}
+#jnDetails .pro_size ul li{
+	float: left;
+	margin-right:5px; 
+}
+#jnDetails .pro_size ul li span{
+	display:block; 
+	margin-right:6px; 
+	padding:1px 12px; 
+	border:1px solid #AAA;
+	cursor:pointer; 
+}
+#jnDetails .pro_size ul li span:hover{
+	background: #ccc;
+}
+#jnDetails .pro_size ul li span.cur{
+	background: #ccc;
+}
+#jnDetails .pro_num{
+	width:380px;
+	font-weight:bold;
+	float:left; 
+	display:inline;
+	margin-bottom:10px;
+}
+#jnDetails .pro_price{
+	width:380px;
+	font-weight:bold;
+	float:left; 
+	display:inline;
+	margin-bottom:10px;
+}
+#jnDetails .pro_rating{
+	width:380px;
+	font-weight:bold;
+	float:left; 
+	display:inline;
+	margin-bottom:10px;
+}
+/*评分样式*/
+#jnDetails .rating{
+	width:80px;
+	height:16px;
+	margin:0 0 20px 0;
+	padding:0;
+	list-style:none;
+	clear:both;
+	position:relative;
+}
+/*默认状态图片显示*/
+.nostar {background: url(../images/star-matrix.gif) no-repeat 0 0}
+.onestar {background: url(../images/star-matrix.gif) no-repeat 0 -16px}
+.twostar {background: url(../images/star-matrix.gif) no-repeat 0 -32px}
+.threestar {background: url(../images/star-matrix.gif) no-repeat 0 -48px}
+.fourstar {background: url(../images/star-matrix.gif) no-repeat 0 -64px}
+.fivestar {background: url(../images/star-matrix.gif) no-repeat 0 -80px}
+#jnDetails .rating{
+	cursor: pointer;
+}
+#jnDetails .rating li{
+	float:left;
+	text-indent:-999em;
+}
+ul.rating li a{
+	position: absolute;
+	left :0;
+	top: 0;
+	width: 16px;
+	height: 16px;
+	text-decoration: none;
+	z-index: 200;
+}
+ul.rating li.one a {left:0}
+ul.rating li.two a {left:16px;}
+ul.rating li.three a {left:32px;}
+ul.rating li.four a {left:48px;}
+ul.rating li.five a {left:64px;}
+ul.rating li a:hover{
+	z-index:2;
+	width:80px;
+	height:16px;
+	overflow:hidden;
+	left:0;	
+	background: url(../images/star-matrix.gif) no-repeat 0 0/*鼠标覆盖时图片显示*/
+}
+ul.rating li.one a:hover {background-position:0 -96px;}
+ul.rating li.two a:hover {background-position:0 -112px;}
+ul.rating li.three a:hover {background-position:0 -128px}
+ul.rating li.four a:hover {background-position:0 -144px}
+ul.rating li.five a:hover {background-position:0 -160px}
+
+/*jQzoom*/
+.zoomdiv {
+	z-index:	999;
+	position                : absolute;
+	top:0px;
+	left:0px;
+	width                   : 340px;
+	height                  : 340px;
+	background: #ffffff;
+	border:1px solid #CCCCCC;
+	display:none;
+	text-align: center;
+	overflow: hidden;
+}
+.jqZoomPup {
+	z-index                 : 999;
+	visibility              : hidden;
+	position                : absolute;
+	top:0px;
+	left:0px;
+	width                   : 50px;
+	height                  : 50px;
+	border: 1px solid #aaa;
+	background: #ffffff url(../images/zoomlens.gif) 50% top  no-repeat;;
+	opacity: 0.5;
+	-moz-opacity: 0.5;
+	-khtml-opacity: 0.5;
+	filter: alpha(Opacity=50);
+}

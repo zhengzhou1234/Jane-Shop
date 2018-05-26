@@ -1,0 +1,294 @@
+/*主题样式,分块设置*/
+#content{
+	clear: left;
+	margin: 0 auto;
+	position: relative;
+	width: 990px;
+}
+.janeshop{
+	height: 560px;
+	overflow: hidden;
+	padding: 0 0 10px;
+}
+#jnCatalog{
+	float: left;
+	height: 560px;
+	margin: 0 11px 0 0;
+	overflow: hidden;
+	width: 187px;
+}
+#jnImageroll{
+	float: left;
+	height: 320px;
+	margin: 0 11px 0 0;
+	overflow: hidden;
+	position: relative;
+	width: 550px;	
+}
+#jnNotice{
+	float: left;
+	height: 321px;
+	overflow: hidden;
+	width: 230px;
+}
+#jnBrand{
+	float: left;
+	height: 230px;
+	margin: 10px 0 0;
+	overflow: hidden;
+	width: 790px;
+}
+/*主体下左栏商品分类样式*/
+#jnCatalog h2{
+	height: 30px;
+	line-height: 30px;
+	color: #fff;
+	font-size: 12px;
+	text-indent: 13px;
+	background-color: #6E6E6E;
+}
+.jnCatainfo{
+	border: 1px solid #6E6E6E;
+	border-style: none solid solid;
+	border-width: 0 1px 1px;
+	height: 524px;
+	overflow: hidden;
+	padding: 5px 10px 0;
+	width: 165px;
+}
+.jnCatainfo h3{
+	border-bottom: 1px solid #EEEEEE;
+	height: 24px;
+	line-height: 24px;
+	width: 164px;
+}
+.jnCatainfo ul{
+	float: left;
+	padding: 0 2px 8px;
+}
+.jnCatainfo li{
+	color: #AEADAE;
+	float: left;
+	height: 24px;
+	line-height: 24px;
+	width: 79px;
+	overflow: hidden;
+	position: relative;
+}
+.jnCatainfo li a{
+	color: #444444;
+}
+.jnCatainfo li a.promoted{
+	color:#F9044E;
+}
+.jnCatainfo li a:hover{
+	color:#008CD7;
+	text-decoration: none;
+}
+.jnCatainfo li sub.hot{
+	height: 16px;
+	position: absolute;
+	top: -4px;
+	width: 21px;
+}
+/*大屏广告图样式*/
+#jnImageroll img{
+	position: absolute;
+	left: 0;
+	top: 0;
+}
+/*大屏广告下方缩略图样式*/
+#jnImageroll div{
+	bottom: 0;
+	overflow: hidden;
+	position: absolute;
+	float: left;
+}
+#jnImageroll div a{
+	background-color: #444444;
+	color: #FFFFFF;
+	display: inline-block;
+	float: left;
+	height: 32px;
+	margin-right:1px;
+	overflow: hidden;
+	padding: 5px 15px;
+	text-align: center;
+	width: 79px; 
+	/* for IE */
+  	filter:alpha(opacity=70);
+  	/* CSS3 standard */
+  	opacity:0.7;
+}
+#jnImageroll div a:hover{
+	text-decoration: none;
+}
+#jnImageroll div a em{
+	cursor: pointer;
+	display: block;
+	height: 16px;
+	overflow: hidden;
+	width: 79px;
+}
+#jnImageroll .last{
+	margin: 0;
+	width: 80px;
+}
+#jnImageroll div a.chos{
+	background:url(../images/adindex.gif) no-repeat center 39px #37A7d7;
+	color:#FFFFFF; 
+}
+/*最新动态样式*/
+#jnMiaosha{
+	float: left;
+	height: 176px;
+	margin-bottom: 10px;
+	overflow: hidden;
+	width: 230px;
+}
+#jnNoticeInfo{
+	float: left;
+	border: 1px solid #DFDFDF;
+	height: 133px;
+	overflow: hidden;
+	width: 228px;
+}
+#jnNoticeInfo h2{
+	height: 23px;
+	line-height: 23px;
+	border-bottom: 1px solid #DFDFDF;
+	text-indent: 12px;
+}
+#jnNoticeInfo ul{
+	float: left;
+	padding: 6px 2px 0 12px;
+}
+#jnNoticeInfo li{
+	height: 20px;
+	line-height: 20px;
+	overflow: hidden;
+}
+#jnNoticeInfo li a{
+	color: #666666;
+}
+#jnNoticeInfo li a:hover{
+	color: #008CD7;
+	text-decoration: none;
+}
+#tooltip{
+	position:absolute;
+	border: 1px solid #333;
+	background: #f7f5d1;
+	padding: 1px;
+	color: #333;
+	display: none;
+}
+#jnBrandTab{
+	border-bottom: 1px solid #E4E4E4;
+	height: 29px;
+	position: relative;
+	width: 790px;
+	float: left;
+}
+#jnBrandTab h2{
+	height: 29px;
+	line-height: 29px;
+	position: absolute;
+	left: 0;
+	width: 100px;
+}
+#jnBrandTab ul{
+	position: absolute;
+	right: 0;
+	top: 10px;
+}
+#jnBrandTab li{
+	float: left;
+	margin: 0 10px 0 0;
+}
+#jnBrandTab li a{
+	background-color: #E4E4E4;
+	color: #000000;
+	display: inline-block;
+	height: 20px;
+	line-height: 20px;
+	padding: 0 10px;
+}
+#jnBrandTab .chos{
+	background:url("../images/chos.gif") no-repeat scroll 50% bottom transparent;
+	padding-bottom: 3px;
+}
+#jnBrandTab .chos a{
+	background-color: #FA5889;
+	color: #FFFFFF;
+	outline: 0 none;
+}
+#jnBrandContent{
+	float: left;
+	height: 188px;
+	overflow: hidden;
+	margin:8px 5px;
+	width: 790px;
+	position: relative; 
+}
+#jnBrandList{
+	position: absolute;
+	left: 0;
+	top: 0;
+	width: 3200px;
+}
+#jnBrandContent li{
+	float: left;
+	height: 188px;
+	overflow: hidden;
+	padding: 0 5px;
+	position: relative;
+	width: 185px;
+}
+#jnBrandContent li img{
+	position: absolute;
+	top: 0;
+	left: 5px;
+	width: 180px;
+	height: 180px;
+}
+#jnBrandContent li img:hover{
+	border: 2px solid #8F8F8F;
+	filter:alpha(opacity=60);
+	opacity:0.6;
+}
+#jnBrandContent li span.myPro{
+	background-color: #EFEFEF;
+	bottom: 0;
+	color: #666666;
+	display: block;
+	font-size: 14px;
+	height: 24px;
+	line-height: 24px;
+	overflow: hidden;
+	position: absolute;
+	text-align: center;
+	width: 184px;
+}
+#jnBrandContent li a{
+	color: #666666;
+}
+#jnBrandContent li a:hover{
+	color:#008CD7;
+	text-decoration: none;
+}
+/* imgHover */
+span.imageMask{
+	background:white; 
+	filter:alpha(opacity=0);
+	-moz-opacity:0;
+	-khtml-opacity: 0;
+	opacity: 0;	
+}
+span.imageOver{
+	background:url(../images/zoom.gif) no-repeat 50% 50%;	
+	filter:alpha(opacity=60);
+	-moz-opacity:0.6;
+	-khtml-opacity: 0.6;
+	opacity: 0.6;	
+}
